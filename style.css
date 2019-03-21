@@ -1,0 +1,55 @@
+body{
+	font: normal 75% 'century gothic', arial, sans-serif;
+	padding-left: 190px;
+	background-color: #006CCF; 
+	padding-top: 250px; 
+}
+
+h2{
+	font: normal 600% "Helvetica", sans-serif;
+	color: white;
+	padding-left: 160px; 
+	font-weight: bold;
+	float: top;
+	line-height: 1%;
+}
+
+h3{
+	font: normal 150% 'century gothic', arial, sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	padding-left: 160px;
+}
+
+.container div{
+	padding: 5px;
+	margin: wrap;
+	flex: 0 1 12em;
+}
+
+.container1{
+	display: flex;
+	flex-direction: row;
+	padding-left: 20px;
+}
+
+.container1 div{
+	padding: 5px;
+	margin: wrap;
+	flex: 0 1 12em;
+}
+
+.container2{
+	display: flex;
+	padding-top: 10px;
+	float: left;
+}
+
+.allText{
+	display; flex;
+	flex-direction: row;
+	flex-wrap: all;
+}
